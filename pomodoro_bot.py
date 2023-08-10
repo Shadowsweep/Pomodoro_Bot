@@ -2,7 +2,7 @@ import telebot
 import time
 
 
-bot = telebot.TeleBot("YOUR API TOKEN")
+bot = telebot.TeleBot("YOUR_API_TOKEN")
 
 @bot.message_handler(commands=["start", "help"])
 def start(message):
